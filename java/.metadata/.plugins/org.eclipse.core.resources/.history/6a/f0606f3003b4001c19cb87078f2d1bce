@@ -1,0 +1,11 @@
+
+public class Date {
+
+	public static void main(String[] args) {
+
+		DemoDate d=new DemoDate();
+		System.out.println(d.toString());
+		
+	}
+
+}

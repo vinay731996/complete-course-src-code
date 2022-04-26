@@ -1,0 +1,14 @@
+package javaCollections;
+
+import java.util.HashSet;
+
+public class SetHashSet {
+
+	public static void main(String[] args) {
+		
+		HashSet<String> s=new HashSet<String>() ;
+		
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package javaCollections;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		
+		
+		ArrayList<String> a=new ArrayList<String>();	
+		
+		a.add("rahul");
+		a.add("vinay");
+		a.add("rahul");
+		a.add("rahul");
+		System.out.println(a);
+		
+		
+		a.add(0,"vijay");
+		System.out.println(a);
+		
+		a.remove(4);
+		System.out.println(a);
+		
+		
+		a.remove("rahul");
+		System.out.println(a);
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+		
+		
+		
+
+	}
+
+}

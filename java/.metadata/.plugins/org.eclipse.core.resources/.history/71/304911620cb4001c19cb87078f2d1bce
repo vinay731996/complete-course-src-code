@@ -1,0 +1,34 @@
+
+public class ConstructorDemo {
+	
+	//constructor will not return any value
+	//constructor name as same as the class name
+	//methods and constructor called by create object
+	  //compile wiil call implictconstructor if you are have not defind constructor
+
+	
+	
+	public ConstructorDemo()
+	{
+		System.out.println("I am the constructor");
+	}
+	
+	
+	
+	public void getMethod()
+	{
+		System.out.println("I am the method");
+	}
+	
+	
+
+		public static void main(String[] args) {
+			
+			
+			ConstructorDemo cd=new ConstructorDemo();
+			
+			//cd.getMethod
+	
+	}
+
+}

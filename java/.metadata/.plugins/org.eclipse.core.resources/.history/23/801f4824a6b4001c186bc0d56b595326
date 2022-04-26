@@ -1,0 +1,13 @@
+
+public class Staticvariable {
+	s
+	String	name="vinay";
+	String addres="hyderabad";
+
+	public static void main(String[] args) {
+		
+	
+
+	}
+
+}

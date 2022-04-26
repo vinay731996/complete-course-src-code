@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="crossbrowser" parallel="tests" thread-count="4">
+	<test name="chromeTesting">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.mystore.testcases.LoginPageTest" />
+		</classes>
+	</test>
+	<test name="firefoxTesting">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.mystore.testcases.IndexPageTest" />
+		</classes>
+	</test>
+	<test name="edgeTesting">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="com.mystore.testcases.SearchResultPageTest" />
+		</classes>
+	</test>
+	<test name="operaTesting">
+		<parameter name="browser" value="opera"></parameter>
+		<classes>
+			<class name="com.mystore.testcases.AccCreationPageTest" />
+		</classes>
+	</test>
+</suite> 

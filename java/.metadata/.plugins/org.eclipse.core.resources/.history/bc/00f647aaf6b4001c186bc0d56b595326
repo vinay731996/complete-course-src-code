@@ -1,0 +1,21 @@
+package javaCollections;
+
+import java.util.HashSet;
+
+public class SetHashSet {
+
+	public static void main(String[] args) {
+		
+		HashSet<String> s=new HashSet<String>();
+		
+		s.add("VINAY");
+		s.add("Lakshmi");
+		s.add("vijay");
+		s.add("sai");
+		s.add("tulasi");
+		s.add("vinay");
+		
+
+	}
+
+}

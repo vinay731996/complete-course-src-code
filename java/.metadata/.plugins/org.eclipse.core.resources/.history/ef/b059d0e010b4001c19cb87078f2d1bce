@@ -1,0 +1,10 @@
+package superDemo;
+
+public class ChildDemo {
+	
+	String name="badboy";
+	public static void main(String[] args) {
+
+	}
+
+}

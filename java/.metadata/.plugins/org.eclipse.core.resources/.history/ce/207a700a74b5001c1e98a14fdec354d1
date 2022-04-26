@@ -1,0 +1,16 @@
+import java.util.stream.Stream;
+
+public class PrintUniquenumberinarray {
+
+	public static void main(String[] args) {
+
+		
+		//int a[]= {1,4,5, 7,3,6,2,4,5,6,2,8};
+		
+		Stream.of(1,4,5, 7,3,6,2,4,5,6,2,8).distinct().sorted().forEach(s->System.out.println(s));
+		
+		//refer section14-selenium java streams
+		//assignment
+	}
+
+}

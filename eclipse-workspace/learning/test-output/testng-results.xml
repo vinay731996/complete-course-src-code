@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-12T15:00:02 IST" name="Suite" finished-at="2022-03-12T15:00:26 IST" duration-ms="23961">
+    <groups>
+    </groups>
+    <test started-at="2022-03-12T15:00:02 IST" name="sample" finished-at="2022-03-12T15:00:26 IST" duration-ms="23961">
+      <class name="org.demo.project.learning.Sample1Test">
+        <test-method signature="login()[pri:0, instance:org.demo.project.learning.Sample1Test@f5acb9d]" started-at="2022-03-12T15:00:02 IST" name="login" finished-at="2022-03-12T15:00:26 IST" duration-ms="23850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="password()[pri:0, instance:org.demo.project.learning.Sample1Test@f5acb9d]" started-at="2022-03-12T15:00:26 IST" name="password" finished-at="2022-03-12T15:00:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method signature="signUp()[pri:0, instance:org.demo.project.learning.Sample1Test@f5acb9d]" started-at="2022-03-12T15:00:26 IST" name="signUp" finished-at="2022-03-12T15:00:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="username()[pri:0, instance:org.demo.project.learning.Sample1Test@f5acb9d]" started-at="2022-03-12T15:00:26 IST" name="username" finished-at="2022-03-12T15:00:26 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+      </class> <!-- org.demo.project.learning.Sample1Test -->
+    </test> <!-- sample -->
+  </suite> <!-- Suite -->
+</testng-results>

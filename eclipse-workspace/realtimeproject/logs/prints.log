@@ -1,0 +1,5 @@
+20:35:13.439 [TestNG-tests-1] INFO  academy.gettitle - land on the homepage
+20:35:14.678 [TestNG-tests-1] DEBUG academy.gettitle - email keys sended
+20:35:14.937 [TestNG-tests-1] DEBUG academy.gettitle - password keys is sended
+20:35:15.267 [TestNG-tests-1] INFO  academy.gettitle - submit_login is clicked
+20:35:15.980 [AsyncHttpClient-1-8] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

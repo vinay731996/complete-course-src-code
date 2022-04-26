@@ -1,0 +1,25 @@
+
+public class ConstructorDemo {
+	
+	
+	public void ConstructorDemo()
+	{
+		System.out.println("I am the constructor");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

@@ -1,0 +1,38 @@
+
+public class Staticvariable {
+	
+	String name;
+	String address;
+	static String city="hyderabad";
+	
+	
+	Staticvariable(String name,String address)
+	{
+		this.name=name;
+		this.address=address;
+		System.out.println(name+" "+address);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args)
+	{
+		Staticvariable obj=new Staticvariable("vinay","kamlanagar");
+		Staticvariable obj1=new Staticvariable("vijay","shardhangar");
+
+		
+		
+		
+		
+	}
+	
+
+	
+
+}

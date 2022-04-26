@@ -1,0 +1,12 @@
+package academy;
+
+public class Demopurpose {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("vinay is good boy");
+
+	}
+
+}

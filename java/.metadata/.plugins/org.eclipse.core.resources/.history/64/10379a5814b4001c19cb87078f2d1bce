@@ -1,0 +1,22 @@
+package superDemo;
+
+public class ParentDemo {
+	
+	//constructor
+	public ParentDemo()
+	{
+		System.out.println("I m in parent constructor");
+	}
+	
+	
+	
+	String name="vinay";
+	
+	
+	public void getData()
+	{
+		System.out.println("i am in parent class");
+	}
+
+
+}

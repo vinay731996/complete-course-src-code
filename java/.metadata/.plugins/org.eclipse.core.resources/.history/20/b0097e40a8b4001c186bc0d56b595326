@@ -1,0 +1,21 @@
+
+public class Static1 extends Staticvariable 
+{
+
+String lastname="guthula";
+
+
+	public static void main(String[] args) {
+		
+		
+		Static1 s= new Static1();
+		System.out.println(s.lastname);
+		
+		
+		
+		
+System.out.println(s.name);
+System.out.println(s.addres);
+	}
+
+}

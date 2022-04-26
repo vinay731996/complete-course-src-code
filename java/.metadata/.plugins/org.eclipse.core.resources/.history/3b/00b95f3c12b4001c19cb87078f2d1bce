@@ -1,0 +1,7 @@
+package superDemo;
+
+public class ParentDemo {
+	String name="vinay";
+
+
+}

@@ -1,0 +1,6 @@
+17:17:55.612 [TestNG-tests-3] DEBUG academy.gettitle - nothanks button is displayed
+17:17:56.928 [TestNG-tests-3] INFO  academy.gettitle - nothanks button is clicked
+17:17:56.929 [TestNG-tests-3] DEBUG academy.gettitle - checking navigationbar
+17:17:57.440 [TestNG-tests-3] INFO  academy.gettitle - navigation is enabled
+17:17:57.443 [AsyncHttpClient-1-3] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+17:18:02.023 [TestNG-tests-3] DEBUG academy.gettitle - driver is closed

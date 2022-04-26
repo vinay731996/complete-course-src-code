@@ -1,0 +1,24 @@
+package javaCollections;
+
+import java.util.HashSet;
+
+public class SetHashSet {
+
+	public static void main(String[] args) {
+		
+		//duplicate values not allow
+		
+		HashSet<String> s=new HashSet<String>();
+		
+		s.add("vinay");
+		s.add("lakshmi");
+		s.add("vijay");
+		s.add("sai");
+		s.add("tulasi");
+		s.add("vinay");
+		
+		System.out.println(s);
+
+	}
+
+}

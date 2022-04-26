@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-19T20:33:34 IST" name="Suite" finished-at="2022-03-19T20:35:17 IST" duration-ms="102702">
+    <groups>
+    </groups>
+    <test started-at="2022-03-19T20:33:34 IST" name="navigation" finished-at="2022-03-19T20:34:35 IST" duration-ms="61218">
+      <class name="academy.checknavigationbar">
+        <test-method is-config="true" signature="initialisedriver()[pri:0, instance:academy.checknavigationbar@610db97e]" started-at="2022-03-19T20:33:34 IST" name="initialisedriver" finished-at="2022-03-19T20:34:13 IST" duration-ms="38660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisedriver -->
+        <test-method signature="checknavbar()[pri:0, instance:academy.checknavigationbar@610db97e]" started-at="2022-03-19T20:34:13 IST" name="checknavbar" finished-at="2022-03-19T20:34:14 IST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checknavbar -->
+        <test-method is-config="true" signature="teadown()[pri:0, instance:academy.checknavigationbar@610db97e]" started-at="2022-03-19T20:34:14 IST" name="teadown" finished-at="2022-03-19T20:34:35 IST" duration-ms="20772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadown -->
+      </class> <!-- academy.checknavigationbar -->
+    </test> <!-- navigation -->
+    <test started-at="2022-03-19T20:33:34 IST" name="homepage" finished-at="2022-03-19T20:34:41 IST" duration-ms="67453">
+      <class name="academy.gettitle">
+        <test-method is-config="true" signature="initialisedriver()[pri:0, instance:academy.gettitle@33c2bd]" started-at="2022-03-19T20:33:34 IST" name="initialisedriver" finished-at="2022-03-19T20:34:29 IST" duration-ms="54520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisedriver -->
+        <test-method signature="checktitle()[pri:0, instance:academy.gettitle@33c2bd]" started-at="2022-03-19T20:34:29 IST" name="checktitle" finished-at="2022-03-19T20:34:29 IST" duration-ms="520" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ COURSES] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ COURSES] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at academy.gettitle.checktitle(gettitle.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checktitle -->
+        <test-method is-config="true" signature="teadown()[pri:0, instance:academy.gettitle@33c2bd]" started-at="2022-03-19T20:34:31 IST" name="teadown" finished-at="2022-03-19T20:34:41 IST" duration-ms="10317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadown -->
+      </class> <!-- academy.gettitle -->
+    </test> <!-- homepage -->
+    <test started-at="2022-03-19T20:33:34 IST" name="forgotpassword" finished-at="2022-03-19T20:34:45 IST" duration-ms="70788">
+      <class name="academy.Forgetpassword">
+        <test-method is-config="true" signature="initialisedriver()[pri:0, instance:academy.Forgetpassword@2c22a348]" started-at="2022-03-19T20:33:34 IST" name="initialisedriver" finished-at="2022-03-19T20:34:36 IST" duration-ms="61682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisedriver -->
+        <test-method signature="forgetpass()[pri:0, instance:academy.Forgetpassword@2c22a348]" started-at="2022-03-19T20:34:36 IST" name="forgetpass" finished-at="2022-03-19T20:34:40 IST" duration-ms="4584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpass -->
+        <test-method is-config="true" signature="teadown()[pri:0, instance:academy.Forgetpassword@2c22a348]" started-at="2022-03-19T20:34:40 IST" name="teadown" finished-at="2022-03-19T20:34:45 IST" duration-ms="4431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadown -->
+      </class> <!-- academy.Forgetpassword -->
+    </test> <!-- forgotpassword -->
+    <test started-at="2022-03-19T20:33:34 IST" name="tittle" finished-at="2022-03-19T20:35:17 IST" duration-ms="102702">
+      <class name="academy.Homepage">
+        <test-method is-config="true" signature="initialisedriver()[pri:0, instance:academy.Homepage@5305c37d]" started-at="2022-03-19T20:33:34 IST" name="initialisedriver" finished-at="2022-03-19T20:34:41 IST" duration-ms="67017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisedriver -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:academy.Homepage@5305c37d]" started-at="2022-03-19T20:34:41 IST" name="basePageNavigation" data-provider="getdata" finished-at="2022-03-19T20:34:44 IST" duration-ms="3058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinay@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teadown()[pri:0, instance:academy.Homepage@5305c37d]" started-at="2022-03-19T20:34:44 IST" name="teadown" finished-at="2022-03-19T20:34:46 IST" duration-ms="1628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadown -->
+        <test-method is-config="true" signature="initialisedriver()[pri:0, instance:academy.Homepage@5305c37d]" started-at="2022-03-19T20:34:46 IST" name="initialisedriver" finished-at="2022-03-19T20:35:13 IST" duration-ms="27097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisedriver -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:academy.Homepage@5305c37d]" started-at="2022-03-19T20:35:13 IST" name="basePageNavigation" data-provider="getdata" finished-at="2022-03-19T20:35:15 IST" duration-ms="2534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijay@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teadown()[pri:0, instance:academy.Homepage@5305c37d]" started-at="2022-03-19T20:35:15 IST" name="teadown" finished-at="2022-03-19T20:35:17 IST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadown -->
+      </class> <!-- academy.Homepage -->
+    </test> <!-- tittle -->
+  </suite> <!-- Suite -->
+</testng-results>

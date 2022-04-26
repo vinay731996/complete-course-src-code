@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 106.499 s <<< FAILURE! - in TestSuite
+checktitle(academy.gettitle)  Time elapsed: 2.529 s  <<< FAILURE!
+java.lang.AssertionError: expected [ COURSES] but found [FEATURED COURSES]
+	at academy.gettitle.checktitle(gettitle.java:42)
+

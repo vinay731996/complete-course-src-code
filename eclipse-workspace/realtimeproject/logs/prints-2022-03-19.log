@@ -1,0 +1,6 @@
+20:34:41.965 [TestNG-tests-2] INFO  academy.gettitle - driver is closed
+20:34:43.056 [TestNG-tests-1] DEBUG academy.gettitle - email keys sended
+20:34:43.269 [TestNG-tests-1] DEBUG academy.gettitle - password keys is sended
+20:34:43.752 [TestNG-tests-1] INFO  academy.gettitle - submit_login is clicked
+20:34:44.719 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+20:34:49.681 [TestNG-tests-1] INFO  academy.gettitle - driver is initialized

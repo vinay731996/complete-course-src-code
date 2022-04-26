@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="loanproject">
+	<test name="personal loan">
+		<classes>
+			<class name="practice.day1"/>			
+			<class name="practice.Day2" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="home loan">
+		<classes>
+			<class name="practice.Day3"/>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="car loan">
+		<classes>
+			<class name="practice.Day4"/>	
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

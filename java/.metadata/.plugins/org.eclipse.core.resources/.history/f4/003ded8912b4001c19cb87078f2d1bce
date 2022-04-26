@@ -1,0 +1,13 @@
+package superDemo;
+
+public class ParentDemo {
+	String name="vinay";
+	
+	
+	public void getData()
+	{
+		
+	}
+
+
+}

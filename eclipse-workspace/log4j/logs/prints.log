@@ -1,0 +1,8 @@
+13:47:42.606 [main] INFO  beta.Sample - Window Maximized
+13:47:42.845 [main] DEBUG beta.Sample - Now hitting Amazon server
+13:47:49.230 [main] INFO  beta.Sample - Landed on amazon home page
+13:47:53.367 [main] DEBUG beta.Sample - Getting the frames count
+13:47:53.397 [main] INFO  beta.Sample - Frames count retreived
+13:47:53.416 [main] INFO  beta.Sample - Successfully switched to frame
+13:47:53.416 [main] DEBUG beta.Sample - Identifying Draggable objects
+13:47:53.795 [main] INFO  beta.Sample - Drag and drop success

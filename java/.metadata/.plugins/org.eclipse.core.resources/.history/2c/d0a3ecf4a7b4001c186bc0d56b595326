@@ -1,0 +1,10 @@
+
+public class Static1 {
+
+	public static void main(String[] args) {
+		
+System.out.println(Staticvariable.name);
+System.out.println(Staticvariable.addres);
+	}
+
+}

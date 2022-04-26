@@ -1,0 +1,17 @@
+
+public class Staticvariable {
+	
+	String	name="vinay";
+	String addres="hyderabad";
+
+	public static void main(String[] args) {
+		
+		Staticvariable sv=new Staticvariable();
+		
+		System.out.println(sv.name+"\n"+sv.addres);
+		
+	
+
+	}
+
+}

@@ -1,0 +1,28 @@
+
+public class ConstructorDemo {
+	
+	
+	public void ConstructorDemo()
+	{
+		System.out.println("I am the constructor");
+	}
+	
+	
+	
+	public void getMethod()
+	{
+		System.out.println("I am the method");
+	}
+	
+	
+
+		public static void main(String[] args) {
+			
+			
+			ConstructorDemo cd=new ConstructorDemo();
+
+		
+		
+	}
+
+}

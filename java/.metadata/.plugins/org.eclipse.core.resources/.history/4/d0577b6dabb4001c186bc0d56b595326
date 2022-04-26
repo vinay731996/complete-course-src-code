@@ -1,0 +1,25 @@
+
+public class Staticvariable {
+	
+	String name;
+	String address;
+	Static city="hyderabad";
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args)
+	{
+		
+	}
+	
+
+	
+
+}

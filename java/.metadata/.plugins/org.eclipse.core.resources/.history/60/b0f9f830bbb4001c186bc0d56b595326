@@ -1,0 +1,19 @@
+package a;
+
+public class Sample {
+	
+	void getDemo() //default access modifier only in pakage a 
+	{
+		
+	}
+	
+	public  void add()
+	{
+		
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}
